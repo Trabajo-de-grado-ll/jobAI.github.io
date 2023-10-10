@@ -1,0 +1,74 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: #343541;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.content-main{
+  width: 80%;
+  height: auto;
+  background-color: gray;
+  border-radius: 2%;
+}
+
+.content-info{
+  text-align: center;
+}
+
+.content-input{
+  width: 100%;
+  display: flex;
+  height: min-content;
+  padding-top: 5%;
+}
+
+.text-input{
+  width: 70%;
+}
+
+.boton-text-input{
+  width: 15%;
+  height: auto;
+  margin-left: 2%;
+}
+
+button{
+  width: 50%;
+  height: 80%;
+  background-color: aqua;
+  margin-bottom: 0;
+}
+
+button:hover{
+  cursor: pointer
+}
+
+@media screen and (max-width:750px) {
+  .content-main{
+    width: 90%;
+  }
+
+  #btn-scraping{
+    width: auto;
+  }
+
+  .boton-text-input{
+    width: 11%;
+    height: auto;
+    margin: 2%;
+  }
+  
+  button{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+
+  .content-input{
+    margin-left: 3%;
+  }
+}
