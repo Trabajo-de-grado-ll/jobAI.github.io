@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jobAI/static/css/main.81a43ff0.css",
+    "main.js": "/jobAI/static/js/main.f00c997d.js",
+    "static/js/787.815f5878.chunk.js": "/jobAI/static/js/787.815f5878.chunk.js",
+    "index.html": "/jobAI/index.html",
+    "main.81a43ff0.css.map": "/jobAI/static/css/main.81a43ff0.css.map",
+    "main.f00c997d.js.map": "/jobAI/static/js/main.f00c997d.js.map",
+    "787.815f5878.chunk.js.map": "/jobAI/static/js/787.815f5878.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81a43ff0.css",
+    "static/js/main.f00c997d.js"
+  ]
+}
