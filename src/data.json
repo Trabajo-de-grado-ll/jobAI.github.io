@@ -1,0 +1,10 @@
+{
+    "labels": ["aprendiz en ingenieria de sistemas", "analista sql junior", "ingenieria en ciencia de datos", "analista soporte TIC", "ingenieria de software", "tecnico de soporte", "auxiliar de sistemas", "ciberseguridad", "director de tecnologia", "analista de desarrollo junior", "desarrollador front end", "desarrollador backend"],
+    "datasets": [
+        {
+            "label": "solicitudes",
+            "data": [72, 56, 20, 36, 80, 40, 30, 80, 25, 30, 12, 60],
+            "backgroundColor": "red"
+        }
+    ]
+}
