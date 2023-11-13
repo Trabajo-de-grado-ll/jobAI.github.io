@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import jsonData from "./data.json";
+import CircularProgress from "@mui/material/CircularProgress";
 
 import "./App.css";
 import {
@@ -184,11 +185,17 @@ function App() {
           </div>
           <br></br>
           {loading ? (
-            <p>Cargando</p>
+            <div className="content-info">
+              <p>
+                <p>Generando web scraping</p>
+                <Box sx={{ display: "flex" }}>
+                  <CircularProgress />
+                </Box>
+              </p>
+            </div>
           ) : (
             <>
-              {prueba ? 
-              (
+              {prueba ? (
                 <>
                   <div className="content-info">
                     <Bar data={transformedJson} options={misoptions} />

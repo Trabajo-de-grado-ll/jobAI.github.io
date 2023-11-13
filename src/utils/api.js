@@ -32,7 +32,7 @@ export const obtenerPrueba = async (titulo) => {
     const options = {
       method: "GET",
       params: { titulo },
-      url: "http://127.0.0.1:8000/main_app/api/generar_pruebas/",
+      url: "http://127.0.0.1:8000/main_app/api/generate_pdf/",
       responseType: "arraybuffer",
     };
     const response = await axios(options);

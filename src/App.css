@@ -50,6 +50,10 @@ button:hover{
   cursor: pointer
 }
 
+.css-k008qs{
+  justify-content: center;
+}
+
 @media screen and (max-width:750px) {
   .content-main{
     width: 90%;
